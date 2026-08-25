@@ -1,0 +1,26 @@
+# Core LLM & agent framework
+langchain-google-genai
+langchain-community
+langchain-huggingface
+langchain-core
+langgraph
+
+# Vector store
+faiss-cpu
+
+# Embeddings model
+sentence-transformers
+
+# Database
+sqlalchemy
+
+# Data processing
+pandas
+openpyxl
+
+# Environment variables
+python-dotenv
+
+# API server
+fastapi
+uvicorn[standard]

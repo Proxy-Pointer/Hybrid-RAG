@@ -1,0 +1,32 @@
+# Secrets
+.env
+
+# Runtime logs (auto-generated)
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Node
+node_modules/
+frontend/dist/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary test / debug scripts at project root (not tests/ directory)
+/check_*.py
+/test_*.py

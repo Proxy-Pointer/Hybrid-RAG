@@ -1,0 +1,35 @@
+{
+    "articles": {
+        "description": "Table containing article metadata and content.",
+        "columns": [
+            {
+                "name": "url",
+                "description": "The URL of the article."
+            },
+            {
+                "name": "title",
+                "description": "The title of the article."
+            },
+            {
+                "name": "authors",
+                "description": "The author(s) of the article."
+            },
+            {
+                "name": "published_date",
+                "description": "The date when the article was published in ISO 8601 format (YYYY-MM-DD HH:MM:SS)."
+            },
+            {
+                "name": "article_category",
+                "description": "The category of the article. Valid values: 'technology', 'business', 'sports', 'travel', 'health', 'entertainment', 'politics', 'fashion'."
+            },
+            {
+                "name": "content_word_count",
+                "description": "The word count of the article's content."
+            },
+            {
+                "name": "full_content",
+                "description": "The full text content of the article."
+            }
+        ]
+    }
+}
